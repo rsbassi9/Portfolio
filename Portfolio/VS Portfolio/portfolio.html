@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="js/functions.js"></script>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
@@ -36,7 +36,7 @@
 
   <body>
     <div class="header">
-      <header class="header" id="header">
+      <header id="header">
 
 <!--Navbar-->
         <nav id="navbar" class="sidebar-menu">
@@ -47,18 +47,16 @@
         class="logo-image"
         id="header-img"
         />
-          <ul class="nav-menu">
+          <ul>
             <li><a class="nav-link" href="#welcome-section">About me</a></li>
             <li><a class="nav-link" href="#skills">Skills</a></li>
             <li><a class="nav-link" href="#projects">Projects</a></li>
             <li><a class="nav-link" href="#socials">Get in touch!</a></li>
           </ul>
-        </nav>
-        <div class="burger-menu" id="burger-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
+        </nav>  
+        <button class="burger-menu" id="burger-menu">
+          <i class="fas fa-bars"></i>
+      </button>
     </div>
     </header>
     
@@ -145,57 +143,57 @@
     </section>
 
 <!--Projects-->
-<section class="projects" id="projects">
-  <h2 class="projects-title">Some of my Recent Projects</h2>
-  <div class="projects-container">
-    <div class="project-container project-card">
-      <img
-        src="https://lh3.googleusercontent.com/rSKD5zthS__9s6M5Q12IIEHBWfGUBybKbq1FQdh4iMt6ZNR9E-50WwmlmcjoxZqeLfAfdSKU_SYtRsmmsc3sz2LAV2PWLndu-1Ty0lcXTGzhtMBEykkv8NmLWd-mKpvnvo8doa5ZVQ=w2400"
-        alt="Farmers Website"
-        loading="lazy"
-        class="project-pic"
-      />
-      <h3 class="project-title">Jagannath Growers PLC</h3>
-      <p class="project-details">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-        ratione vel inventore labore commodi modi quos culpa aut saepe!
-        Alias!
-      </p>
-      <a href="https://www.jagannathgrowers.org/" target="_blank" class="project-link">Check it Out</a>
-    </div>
-    <div class="project-container project-card">
-      
-      <img
-        src="https://lh3.googleusercontent.com/ZLOADCYo4fjcqc28z5TwjKS38vdfs4Naz1cC6cgNIq6xgDHZ6UDyVbf-8NsTbvCAFv4_cCL7sQ_9dnP9Qg-UBzL0h1W80gus70t3-7gOsIjt5LO6Isj4BbrQ3nZhGLwgov4iLinDag=w2400"
-        alt="Real Estate Website"
-        loading="lazy"
-        class="project-pic"
-      />
-      <h3 class="project-title">Prime  Living Luxury Apartments</h3>
-      <p class="project-details">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-        ratione vel inventore labore commodi modi quos culpa aut saepe!
-        Alias!
-      </p>
-      <a href="https://primeliving.co.ke/" target="_blank" class="project-link">Check it Out</a>
-    </div>
-    <div class="project-container project-card">
-      <img
-        src="https://lh3.googleusercontent.com/BRqV9jUviVUZxadX8KkQSJbYeOuxFSHuejSJX8SXFUdNFJE2FfGObnKyjovUB20zloe9gP9YRAgQlAQ1IMUT28m5VjqIdsqfpiBGFI9cp87uR__ZDI0lf9AaYOULVYfR4v1USf32Kg=w2400"
-        alt="Product Landing Page"
-        loading="lazy"
-        class="project-pic"
-      />
-      <h3 class="project-title">Product Landing Page - FCC Project</h3>
-      <p class="project-details">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-        ratione vel inventore labore commodi modi quos culpa aut saepe!
-        Alias!
-      </p>
-      <a href="file:///C:/Users/Rajvir/Documents/RBAS%20Personal/FCC/HTML/Basics/Product%20landing%20page%20-%20Project/Landing%20page.html" target="_blank" class="project-link">Check it Out</a>
-    </div>
-  </div>
-</section>
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="https://lh3.googleusercontent.com/rSKD5zthS__9s6M5Q12IIEHBWfGUBybKbq1FQdh4iMt6ZNR9E-50WwmlmcjoxZqeLfAfdSKU_SYtRsmmsc3sz2LAV2PWLndu-1Ty0lcXTGzhtMBEykkv8NmLWd-mKpvnvo8doa5ZVQ=w2400"
+            alt="Farmers Website"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Jagannath Growers PLC</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="https://www.jagannathgrowers.org/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          
+          <img
+            src="https://lh3.googleusercontent.com/ZLOADCYo4fjcqc28z5TwjKS38vdfs4Naz1cC6cgNIq6xgDHZ6UDyVbf-8NsTbvCAFv4_cCL7sQ_9dnP9Qg-UBzL0h1W80gus70t3-7gOsIjt5LO6Isj4BbrQ3nZhGLwgov4iLinDag=w2400"
+            alt="Real Estate Website"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Prime  Living Luxury Apartments</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="https://primeliving.co.ke/" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="https://lh3.googleusercontent.com/BRqV9jUviVUZxadX8KkQSJbYeOuxFSHuejSJX8SXFUdNFJE2FfGObnKyjovUB20zloe9gP9YRAgQlAQ1IMUT28m5VjqIdsqfpiBGFI9cp87uR__ZDI0lf9AaYOULVYfR4v1USf32Kg=w2400"
+            alt="Product Landing Page"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Product Landing Page - FCC Project</h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="file:///C:/Users/Rajvir/Documents/RBAS%20Personal/FCC/HTML/Basics/Product%20landing%20page%20-%20Project/Landing%20page.html" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
 
     <section class="contact" id="contact">
       <h2>Get In Touch With Me</h2>
