@@ -7,7 +7,7 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
+  --bg-color: #232224;
   --primary-color: #C4B9CD;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
@@ -109,6 +109,12 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+  background-image: url("https://lh3.googleusercontent.com/pw/AJFCJaVBQs2ROelJYP9eKn81E2E8RB20RP-zY-Y1Q_5SuAPTiTjL69eCg9E36zSs1j3d7r8_mDe0pa3zq2ExCTZAWFuFj5AROaMVXN8gn0idjiWSrFTklA-95MfmrpORkoNDuJk06y2Ez2fGUqbtPT89h67w=w1529-h860-s-no?authuser=0");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: visible;
+  overflow: visible;
 }
 
 .hero img {
@@ -117,12 +123,14 @@ nav ul li {
   height: 37.5rem;
   width: 37.5rem;
   border-radius: 40%;
+  
 }
 
 .bio {
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
+  background-color: var(--primary-color);
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
@@ -141,11 +149,13 @@ nav ul li {
 }
 
 .more-about h2 {
+  color: var(--primary-color);
   margin-bottom: var(--bottom-margin);
   text-align: center;
 }
 
 .more-about p {
+  color: var(--primary-color);
   line-height: var(--line-height);
   padding: 0.4rem;
   text-align: center;
@@ -157,6 +167,7 @@ nav ul li {
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
+  
 }
 
 .skill-header {
@@ -358,7 +369,10 @@ footer {
     justify-content: center;
     gap: 2.5rem;
     max-width: 68.75rem;
-    margin: 0px 20px 0px 15px;
+    background-image: url("https://lh3.googleusercontent.com/pw/AJFCJaVBQs2ROelJYP9eKn81E2E8RB20RP-zY-Y1Q_5SuAPTiTjL69eCg9E36zSs1j3d7r8_mDe0pa3zq2ExCTZAWFuFj5AROaMVXN8gn0idjiWSrFTklA-95MfmrpORkoNDuJk06y2Ez2fGUqbtPT89h67w=w1529-h860-s-no?authuser=0");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
   }
 
   .hero img {
