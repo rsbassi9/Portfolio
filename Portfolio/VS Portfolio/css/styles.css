@@ -8,10 +8,11 @@
   --bold-font: 700;
   --bolder-font: 900;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
+  --primary-color: #c4b9cd;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
+  --tertiary-color: #1a151e;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -30,6 +31,9 @@ html {
   box-sizing: border-box;
 }
 
+#navbar{
+  background-color: var(--tertiary-color);
+}
 ul {
   list-style-type: none;
 }
@@ -92,8 +96,8 @@ nav ul li {
 }
 
 .logo-image{
-  height: 2.5rem;
-  width: 3.5rem;
+  height: 5rem;
+  width: 5rem;
   border-radius: 20%;
 }
 
@@ -353,7 +357,7 @@ footer {
     justify-content: center;
     gap: 2.5rem;
     max-width: 68.75rem;
-    margin: 0px 20px 0px 10px;
+    margin: 0px 20px 0px 15px;
   }
 
   .hero img {
