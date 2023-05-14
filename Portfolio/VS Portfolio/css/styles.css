@@ -107,7 +107,6 @@ nav ul li {
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  max-width: 68.75rem;
   margin: auto;
   background-image: url("https://lh3.googleusercontent.com/pw/AJFCJaVBQs2ROelJYP9eKn81E2E8RB20RP-zY-Y1Q_5SuAPTiTjL69eCg9E36zSs1j3d7r8_mDe0pa3zq2ExCTZAWFuFj5AROaMVXN8gn0idjiWSrFTklA-95MfmrpORkoNDuJk06y2Ez2fGUqbtPT89h67w=w1529-h860-s-no?authuser=0");
   background-repeat: no-repeat;
@@ -210,6 +209,7 @@ nav ul li {
 }
 
 .projects-title {
+  color: var(--primary-color);
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -241,6 +241,10 @@ nav ul li {
 }
 
 .project-bullet{
+  color: var(--secondary-color);
+}
+
+.bullet-container{
   margin-bottom: 10px;
 }
 
