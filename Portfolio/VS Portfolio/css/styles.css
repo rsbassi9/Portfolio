@@ -215,6 +215,10 @@ nav ul li {
   margin: 10px;
 }
 
+.project-bullet{
+  margin-bottom: 10px;
+}
+
 .contact {
   margin-top: 2rem;
 }
