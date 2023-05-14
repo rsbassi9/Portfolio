@@ -348,16 +348,19 @@ footer {
   }
 
   .hero {
-    margin-top: -4rem;
-    flex-direction: column;
-    gap: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: 0px 20px 0px 10px;
   }
 
   .hero img {
-        margin-top: 5rem;
-        height: 27.5rem;
-        width: 27.5rem;
-        border-radius: 40%;
+    margin-top: 5rem;
+    height: 27.5rem;
+    width: 27.5rem;
+    border-radius: 40%;
     }
 
   .bio {
