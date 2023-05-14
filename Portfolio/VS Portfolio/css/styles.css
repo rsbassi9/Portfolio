@@ -108,8 +108,10 @@ nav ul li {
 }
 
 .hero img {
+  margin-top: 2.5rem;
   height: 37.5rem;
   width: 37.5rem;
+  border-radius: 40%;
 }
 
 .bio {
@@ -141,6 +143,7 @@ nav ul li {
 .more-about p {
   line-height: var(--line-height);
   padding: 0.4rem;
+  text-align: center;
 }
 
 /*Skills*/
@@ -351,8 +354,10 @@ footer {
   }
 
   .hero img {
-        height: 25rem;
-        width: 30rem;
+        margin-top: 5rem;
+        height: 27.5rem;
+        width: 27.5rem;
+        border-radius: 40%;
     }
 
   .bio {
