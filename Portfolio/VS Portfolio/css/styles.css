@@ -371,6 +371,12 @@ footer {
     transform: translateX(0);
   }
 
+  .logo-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .hero {
     display: flex;
     align-items: center;
@@ -429,9 +435,13 @@ footer {
 };
 
 @media screen and (max-width: 420px) {
+  .hero {
+    flex-direction: column;
+  }
+  
   .hero img {
-    height: 37.5rem;
-    width: 23rem;
+    height: 25rem;
+    width: 13rem;
   }
 
   .bio {
