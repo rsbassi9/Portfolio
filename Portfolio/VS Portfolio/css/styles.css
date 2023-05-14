@@ -65,7 +65,7 @@ nav {
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
   background-color: var(--bg-color);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 20px rgb(6, 6, 6, 0.8);
 }
 
 nav a {
@@ -146,6 +146,7 @@ nav ul li {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
 }
+/*Can add box sharow above and below to create the fade-in and fade-out effects*/
 
 .more-about h2 {
   color: var(--primary-color);
