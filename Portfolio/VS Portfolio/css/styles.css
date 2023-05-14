@@ -334,6 +334,10 @@ footer {
   margin: 2rem 0 0;
 }
 
+.copy{
+  color: white
+}
+
 @media screen and (max-width: 720px) {
   /*changes reflects on screen with a width of 720px and below*/
   nav {
